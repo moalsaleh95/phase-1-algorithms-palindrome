@@ -3,8 +3,7 @@ function isPalindrome(word) {
   let splitArray = word.split('');
   let reverseArray = splitArray.reverse();
   let joinString = reverseArray.join('');
-  if (joinString === word) return true;
-  else return false;
+  return joinString === word
 }
 
 /* 
